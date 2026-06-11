@@ -2,10 +2,10 @@ import os
 import base64
 import streamlit as st
 from openai import OpenAI
-from openai.error import OpenAIError
+from openai import OpenAIError
 
 st.set_page_config(
-    page_title="AI Art Inspiration Generator",
+    page_title="AI Art-Inspiration Generator",
     page_icon="🎨",
     layout="wide",
 )
